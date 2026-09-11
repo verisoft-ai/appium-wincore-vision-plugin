@@ -1,7 +1,7 @@
 {
   "name": "appium-wincore-vision-plugin",
   "version": "1.0.1",
-  "description": "Vision-based element finding for appium-desktop-driver, as an installable Appium plugin",
+  "description": "Vision-based element finding for appium-wincore-driver, as an installable Appium plugin",
   "keywords": [
     "appium",
     "plugin",
