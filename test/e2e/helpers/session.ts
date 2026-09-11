@@ -16,7 +16,7 @@ export async function createCalculatorSession(extraCaps?: Record<string, unknown
         ...APPIUM_SERVER,
         capabilities: {
             platformName: 'Windows',
-            'appium:automationName': 'DesktopDriver',
+            'appium:automationName': 'Wincore',
             'appium:app': CALCULATOR_APP_ID,
             ...extraCaps,
         } as Caps,

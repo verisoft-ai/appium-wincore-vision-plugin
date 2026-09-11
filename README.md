@@ -1,6 +1,6 @@
 # appium-wincore-vision-plugin
 
-Vision-based element finding for [appium-desktop-driver](https://github.com/verisoft-ai/appium-desktop-driver), as an installable Appium plugin.
+Vision-based element finding for [appium-wincore-driver](https://github.com/verisoft-ai/appium-wincore-driver), as an installable Appium plugin.
 
 Adds the `windows: findByVision` execute-script command: sends a screenshot and a natural-language description to a vision-capable LLM (Claude, GPT, Gemini, or Amazon Nova via Bedrock), then maps the model's answer back to screen coordinates.
 
@@ -12,7 +12,7 @@ Split out from the driver core so users who don't need LLM-based vision finding 
 appium plugin install --source=npm appium-wincore-vision-plugin
 ```
 
-Requires Appium 3 and `appium-desktop-driver` installed and running a `DesktopDriver` session.
+Requires Appium 3 and `appium-wincore-driver` installed and running a `Wincore` session.
 
 ## Enable
 
